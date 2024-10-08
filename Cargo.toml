@@ -1,0 +1,11 @@
+[package]
+name = "goldfish01"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+borsh = "1.5.1"
+solana-program = "=1.18.1"
+
+[lib]
+crate-type = ["cdylib", "lib"]
